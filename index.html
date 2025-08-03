@@ -1,0 +1,202 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh Bhat Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen fade-out" id="loadingScreen" style="display: none;">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <nav class="navbar" style="background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); box-shadow: 0 2px 8px rgba(30,60,114,0.08);">
+            <div class="container">
+                <div class="logo">Ansh Bhat</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="AB resume.docx" target="_blank">Resume</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="mobile-menu" id="mobileMenu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="AB resume.docx" target="_blank">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="crazy-gradient-bg"></div>
+        <div class="particles" id="particles"><!-- ...existing code... --></div>
+        <div class="container">
+            <h1>Ansh Bhat</h1>
+            <p class="subtitle" id="typewriter">Motivated Computer Science Student</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-placeholder crazy-glow">
+                        <img src="profile_pic.png" alt="" class="profile-photo">
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                   
+                    <p>Motivated Computer Science student with a strong foundation in Python, C, C++ and web development (HTML, CSS, JavaScript). Skilled in content writing, identifying and addressing problems, and proficient in MS Office tools. Demonstrates strong leadership, time management, and a collaborative mindset. Eager to expand my technical skills and contribute to work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-tools"></i> Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <i class="fas fa-code crazy-float"></i>
+                    <h3>Technical Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <br>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">MS Office</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-users crazy-float"></i>
+                    <h3>Other Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Collaboration</span>
+                        <span class="skill-tag">Team Management</span>
+                        <span class="skill-tag">Content Writing</span>
+                        <span class="skill-tag">Analytical & Problem-Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Currently Learning Section -->
+    <!-- Currently Learning Section removed for brevity -->
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="education-card" style="opacity: 1; transform: translateY(0px); transition: 0.6s;">
+                <h3>B.Tech in Computer Science Engineering (Artificial Intelligence)</h3>
+                <p class="institution"><a href="https://www.poornima.org/" target="_blank" style="color:inherit;text-decoration:underline;"></a>Poornima College of Engineering</a></p>
+                <p class="duration">2024 - Present</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
+            <div class="project-list">
+                <div class="project-item basic-hover">
+                    <h3>Smart India Hackathon (Team Project – KAUSHISH)</h3>
+                    <p>Developed a website that connects users to internships and freelancing opportunities based on their skills.</p>
+                </div>
+                <div class="project-item basic-hover">
+                    <h3>Training Project (AI-Powered Speech and Text Translator with Voice Output)</h3>
+                    <p>An AI generated python program helping in translating voice or text from one language to another language and give output in text as well as with a voice output.</p>
+                </div>
+                <div class="project-item basic-hover">
+                    <h3>Hardware Project (RC Car)</h3>
+                    <p>Developed a Bluetooth controlled car from scratch, integrating electronic, mechanical, and wireless control systems.</p>
+                </div>
+                <div class="project-item basic-hover">
+                    <h3>Mini Projects in Python</h3>
+                    <p>Developed multiple mini projects in Python, including a  to-do list, and number guessing game, showcasing problem-solving and coding skills.<br>
+                    <a href="https://github.com/AnshBhat18/Mini_Projects" target="_blank" style="color: #007bff; text-decoration: underline;">View on GitHub</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-paper-plane"></i> Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-item crazy-entrance">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:anshbhat2006@gmail.com">anshbhat2006@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item crazy-entrance">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <a href="tel:+917982987372">+91 79829 87372</a>
+                    </div>
+                </div>
+                <div class="contact-item crazy-entrance">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <a href="https://www.linkedin.com/in/ansh-bhat-" target="_blank">linkedin.com/in/ansh-bhat-</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ansh-bhat-" target="_blank" class="crazy-footer-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:anshbhat2006@gmail.com" class="crazy-footer-icon"><i class="fas fa-envelope"></i></a>
+                <a href="#" id="scrollToTop" title="Back to Top" class="crazy-footer-icon"><i class="fas fa-arrow-up"></i></a>
+            </div>
+            <p>© 2025 Ansh Bhat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+
+</body></html>
